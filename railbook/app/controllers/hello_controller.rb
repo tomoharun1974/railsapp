@@ -9,5 +9,6 @@ class HelloController < ApplicationController
  end
  def list
    @books = Book.all
+   @logo = MY_APP['logo']['title']
  end
 end

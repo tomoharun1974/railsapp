@@ -1,0 +1,14 @@
+COMMON: &COMMON
+ author: "Tomo"
+ logo:
+  title: "test myconf"
+
+development:
+ <<: *COMMON
+
+test:
+ <<: *COMMON
+
+production:
+ <<: *COMMON
+
