@@ -1,0 +1,16 @@
+<table border="1">
+ <tr>
+  <th>ISBNコード</th>
+  <th>書名</th>
+  <th>価格</th>
+ </tr>
+
+<% @books.each do |book| %>
+ <tr>
+  <td><%= book.isbn %></td>
+  <th><%= book.title %></td>
+  <th><%= book.price %></td>
+ </tr>
+<% end %>
+</table>
+
