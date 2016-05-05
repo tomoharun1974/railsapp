@@ -4,8 +4,14 @@ one:
   isbn: MyString
   title: MyString
   price: 1
+  publish: MyString
+  published: 2016-05-05
+  cd: false
 
 two:
   isbn: MyString
   title: MyString
   price: 1
+  publish: MyString
+  published: 2016-05-05
+  cd: false
