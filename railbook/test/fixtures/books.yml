@@ -1,17 +1,19 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  isbn: MyString
-  title: MyString
+  id: 1
+  isbn: 0987654321123
+  title: Javascriptの強化書
   price: 1
-  publish: MyString
+  publish: 翔泳社
   published: 2016-05-05
   cd: false
 
 two:
-  isbn: MyString
-  title: MyString
+  id: 2
+  isbn: 1234567890123
+  title: Javaのオブジェクト
   price: 1
-  publish: MyString
+  publish: 技術評論社
   published: 2016-05-05
   cd: false

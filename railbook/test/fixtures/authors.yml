@@ -1,17 +1,19 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  id: 1
   user_id: 
-  name: MyString
+  name: 佐藤一郎
   birth: 2016-05-05
-  address: MyText
-  ctype: MyString
+  address: 東京都東京２−１−１
+  ctype: あああああ
   photo: 
 
 two:
+  id: 2
   user_id: 
-  name: MyString
+  name: 山田太郎
   birth: 2016-05-05
-  address: MyText
-  ctype: MyString
+  address: 東京都東京１−１−１
+  ctype: Mいいいい
   photo: 
